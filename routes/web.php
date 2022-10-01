@@ -29,7 +29,7 @@ Route::get('/index', function ( Request $request) {
         Debugbar::error('!!!!');
     }
 
-    //Debugbar::startMeasure('render','Time for rendering');
+    Debugbar::startMeasure('render','Time for rendering');
     
     /*Debugbar::measure('My long operation', function() {
         // Do something…
